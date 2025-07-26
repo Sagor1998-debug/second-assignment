@@ -428,4 +428,173 @@ body {
   color: white;
   text-decoration: none;
 }
+@media (max-width: 576px) {
+    .navbar {
+        padding: 10px 15px;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
 
+    .flower-logo img {
+        height: 40px;
+    }
+
+    .navbar-links {
+        display: none;
+    }
+
+    .cart-section {
+        gap: 5px;
+    }
+
+    .cart-icon {
+        height: 18px;
+    }
+
+    .cart-section a {
+        font-size: 14px;
+    }
+
+    .banner {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 15px;
+    }
+
+    .banner-image {
+        margin-bottom: 20px;
+    }
+
+    .banner-image img {
+        max-width: 80%;
+    }
+
+    .banner-description h3 {
+        font-size: 2em;
+    }
+
+    .banner-description p {
+        font-size: 0.9em;
+    }
+
+    .our-plants {
+        padding: 30px 15px;
+    }
+
+    .our-plants h2 {
+        font-size: 2em;
+    }
+
+    .our-plants .description-text {
+        font-size: 0.9em;
+        margin-bottom: 30px;
+    }
+
+    .product-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .product-item {
+        padding: 10px;
+    }
+
+    .product-item h3 {
+        font-size: 1em;
+    }
+
+    .product-item p.price {
+        font-size: 1em;
+        margin-bottom: 10px;
+    }
+
+    .add-to-cart-button {
+        padding: 10px 0;
+        font-size: 0.9em;
+    }
+
+    .flower-lover-section {
+        padding: 30px 15px;
+    }
+
+    .flower-lover-section img {
+        max-width: 95%;
+        margin-bottom: 20px;
+    }
+
+    .flower-lover-section h2 {
+        font-size: 1.8em;
+    }
+
+    .flower-lover-section li {
+        font-size: 0.85em;
+    }
+
+    .latest-deals-section {
+        padding: 30px 15px;
+    }
+
+    .latest-deals-section h2 {
+        font-size: 2em;
+    }
+
+    .latest-deals-section .description-text {
+        font-size: 0.9em;
+        margin-bottom: 25px;
+    }
+
+    .deal-card-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .deal-card {
+        height: 160px;
+    }
+
+    .deal-card-content h3 {
+        font-size: 1.2em;
+    }
+
+    .deal-card-content a.shop-now-button {
+        font-size: 0.9em;
+    }
+
+    .newsletter-section {
+        padding: 40px 15px;
+        min-height: 200px;
+    }
+
+    .newsletter-section h2 {
+        font-size: 1.6em;
+    }
+
+    .newsletter-form {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .newsletter-form input[type="email"],
+    .newsletter-form button {
+        width: 90%;
+        padding: 10px 15px;
+        font-size: 0.9em;
+    }
+
+    .main-footer {
+        padding: 30px 15px;
+        gap: 20px;
+    }
+
+    .footer-column {
+        text-align: center;
+    }
+
+    .footer-logo-section img {
+        margin: 0 auto 15px auto;
+    }
+
+    .footer-social-icons {
+        justify-content: center;
+    }
+}
